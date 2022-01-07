@@ -12,10 +12,11 @@
 </p>
 
 ---------
-<h3>My little projects that I might mention in my resume.</h3>
+<h3>My List.</h3>
 
 <p align="left">
   <img src="https://img.shields.io/badge/JavaScript-FFFF33.svg?logo=JavaScript&style=for-the-badge" />
 </p>
 
-> - Music Player (in process)
+> ➥ Music Player (in process)
+> ➥ 
