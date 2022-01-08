@@ -28,26 +28,90 @@ body {
     transition: background-color .5s;
 }
 
+.loader-wrapper {
+    width: 100%;
+    height: 100%;
+    position: fixed; /*This will always be fixed.*/
+    top: 0;
+    left: 0;
+    background-color: #242f3f;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 3;
+}
+
+.loader {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    position: fixed;
+    border: 4px solid #Fff;
+    animation: loader 2s infinite ease;
+}
+
+.loader-inner {
+    vertical-align: top;
+    display: inline-block;
+    width: 100%;
+    background-color: #fff;
+    animation: loader-inner 2s infinite ease-in;
+}
+
+@keyframes loader {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    25% {
+        transform: rotate(180deg);
+    }
+
+    50% {
+        transform: rotate(180deg);
+    }
+
+    75% {
+        transform: rotate(360deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes loader-inner {
+    0% {
+        height: 0%;
+    }
+
+    25% {
+        height: 0%;
+    }
+
+    50% {
+        height: 100%;
+    }
+
+    75% {
+        height: 100%;
+    }
+
+    100% {
+        height: 0%;
+    }
+}
+
 .box {
     position: fixed;
     top:-90px;
     left:0;
-    animation: bounce .3s ease-in-out 1s infinite;
     z-index: 1000;
     width: 334px;
     height: 980px;
 
     border: none;
     padding: 0;
-    margin: 0;
-}
-
-.welcome_properties {
-    position: relative;
-    width: 50px;
-    top: 0;
-    left: 0;
-    border: none;
     margin: 0;
 }
 
@@ -85,8 +149,7 @@ align items in a vertical direction */
 }
 
 .track-art {
-    margin: 25px;
-    margin-bottom:10px;
+    margin: 25px 25px 10px;
     height: 250px;
     width: 250px;
 
@@ -98,6 +161,7 @@ align items in a vertical direction */
 /* Changing the font sizes to suitable ones */
 .now-playing {
     font-size: 1rem;
+
 }
 
 .track-name {
@@ -170,7 +234,7 @@ align items in a horizontal direction */
 /* Change the opacity when mouse is hovered */
 .seek_slider:hover,
 .volume_slider:hover {
-    opacity: 1.0;
+    opacity: 3.0;
 }
 
 .seek_slider {
@@ -199,3 +263,5 @@ i.fa-step-forward,
 i.fa-step-backward {
     cursor: pointer;
 }
+
+
