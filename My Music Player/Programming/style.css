@@ -1,27 +1,3 @@
-/*
-<svg fill="none" viewBox="0 0 400 80" xmlns="http://www.w3.org/2000/svg">
-    <foreignObject width="100%" height="90%">
-        <div xmlns="http://www.w3.org/1999/xhtml">
-            <style>
-            h1 {
-                color: #ff5050;
-                animation: mymove 5s infinite;
-            }
-
-            @keyframes mymove {
-                10%   {color: #ff5050;}
-                35%  {color: gold;}
-                60%  {color: #cc66ff;}
-                85%  {color: #db4dff;}
-                100% {color: #4dffdb;}
-            }
-            </style>
-            <h1 align="center">ʙᴏɴᴊᴏᴜʀ! ᴊᴇ ᴍ’ᴀᴘᴘᴇʟʟᴇ ɪᴛɪSʜ</h1>
-        </div>
-    </foreignObject>
-</svg>
-*/
-
 body {
     background-color: lightgreen;
     /* Smoothly transition the background color */
