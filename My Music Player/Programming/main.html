@@ -4,7 +4,6 @@
     <title>My Music Player</title>
     <!--Solve the two Script Src below-->
     <script src="https://kit.fontawesome.com/3cc2adce48.js" crossorigin="anonymous"></script>
-    <script src="https://unpkg.com/scrollreveal"></script>
 
     <!-- Load FontAwesome icons -->
     <link rel="stylesheet"
@@ -15,6 +14,10 @@
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
+<!--Loading Animation-->
+<div class="loader-wrapper">
+    <span class="loader"><span class="loader-inner"></span></span>
+</div>
 
 <!--The Canva Welcome Banner Link-->
 <div class="box">
@@ -29,7 +32,7 @@
     <!-- Define the section for displaying details -->
     <div class="details">
         <div class="now-playing">PLAYING x OF y</div>
-        <div class="track-art"></script></div>
+        <div class="track-art"></div>
         <div class="track-name">Track Name</div>
         <div class="track-artist">Track Artist</div>
     </div>
@@ -40,12 +43,16 @@
             <i class="fas fa-backward fa-2x"></i>
         </div>
         <div class="playpause-track" onclick="playpauseTrack()">
-            <i class="fas fa-play fa-pause fa-2x"></i>
+            <a href="https://www.youtube.com/embed/fibYknUCIU4">
+            <i class="fas fa-play-circle fa-pause-circle fa-2x">
+            </i>
+            </a>
         </div>
         <div class="next-track" onclick="nextTrack()">
             <i class="fas fa-forward fa-2x"></i>
         </div>
     </div>
+
 
     <!-- Define the section for displaying the seek slider-->
     <div class="slider_container">
@@ -68,12 +75,17 @@
         </label>
     </div>
 </div>
-<a href="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAE0pdez838&#x2F;watch?utm_content=DAE0pdez838&amp;utm_campaign=designshare&amp;utm_medium=embeds&amp;utm_source=link" target="_blank" rel="noopener"></a>
-<!-- Load the main script for the player -->
-<script src="main.js">
 
-	ScrollReveal({ reset: true });
-	ScrollReveal().reveal('.headline', {delay:500});
+<!-- Load the main script for the player -->
+<script
+        src="https://code.jquery.com/jquery-3.6.0.js"
+        integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+        crossorigin="anonymous">
+	$(window).on("load",function(){
+		$(".loader-wrapper").fadeOut("slow");
+	});
+</script>
+<script src="main.js">
 </script>
 </body>
 </html>
