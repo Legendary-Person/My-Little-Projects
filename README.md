@@ -18,5 +18,14 @@
   <img src="https://img.shields.io/badge/JavaScript-FFFF33.svg?logo=JavaScript&style=for-the-badge" />
 </p>
 
-> ➥ Music Player (in process)
-> ➥ 
+> ➥ Music Player (in process) <br/>
+> ➥ Dark and Light theme (to do) <br/>
+> ➥ Quote Generator (to do) <br/>
+> ➥ Todo App (to do) <br/>
+> ➥ Portfolio (to do) <br/>
+
+<p align="left">
+  <img src="https://img.shields.io/badge/Kotlin-38ffbd.svg?logo=kotlin&style=for-the-badge" />
+</p>
+
+> ➥ Calculator App (to do) <br/>
