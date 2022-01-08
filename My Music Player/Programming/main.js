@@ -60,7 +60,7 @@ function loadTrack(track_index) {
 
 // Update details of the track
 	track_art.style.backgroundImage =
-		"ucl(" + track_list[track_index].image + ")";
+		"url(" + track_list[track_index].image + ")";
 	track_name.textContent = track_list[track_index].name;
 	track_artist.textContent = track_list[track_index].artist;
 	now_playing.textContent =
