@@ -113,7 +113,7 @@ function playTrack() {
 	isPlaying = true;
 
 // Replace icon with the pause icon
-	playpause_btn.innerHTML = '<i class="fa fa-pause-circle fa-5x"></i>';
+	playpause_btn.innerHTML = '<i class="fa fa-pause-circle fa-2x"></i>';
 }
 
 function pauseTrack() {
@@ -122,7 +122,7 @@ function pauseTrack() {
 	isPlaying = false;
 
 // Replace icon with the play icon
-	playpause_btn.innerHTML = '<i class="fa fa-play-circle fa-5x"></i>';
+	playpause_btn.innerHTML = '<i class="fa fa-play-circle fa-2x"></i>';
 }
 
 function nextTrack() {
@@ -134,7 +134,7 @@ function nextTrack() {
 
 // Load and play the new track
 	loadTrack(track_index);
-	playTrack();
+	pauseTrack();
 }
 
 function prevTrack() {
@@ -146,7 +146,7 @@ function prevTrack() {
 
 // Load and play the new track
 	loadTrack(track_index);
-	playTrack();
+	pauseTrack();
 }
 
 function seekTo() {
