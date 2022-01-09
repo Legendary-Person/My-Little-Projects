@@ -4,80 +4,6 @@ body {
     transition: background-color .5s;
 }
 
-.loader-wrapper {
-    width: 100%;
-    height: 100%;
-    position: fixed; /*This will always be fixed.*/
-    top: 0;
-    left: 0;
-    background-color: #242f3f;
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    z-index: 3;
-}
-
-.loader {
-    display: inline-block;
-    width: 30px;
-    height: 30px;
-    position: fixed;
-    border: 4px solid #Fff;
-    animation: loader 2s infinite ease;
-}
-
-.loader-inner {
-    vertical-align: top;
-    display: inline-block;
-    width: 100%;
-    background-color: #fff;
-    animation: loader-inner 2s infinite ease-in;
-}
-
-@keyframes loader {
-    0% {
-        transform: rotate(0deg);
-    }
-
-    25% {
-        transform: rotate(180deg);
-    }
-
-    50% {
-        transform: rotate(180deg);
-    }
-
-    75% {
-        transform: rotate(360deg);
-    }
-
-    100% {
-        transform: rotate(360deg);
-    }
-}
-
-@keyframes loader-inner {
-    0% {
-        height: 0%;
-    }
-
-    25% {
-        height: 0%;
-    }
-
-    50% {
-        height: 100%;
-    }
-
-    75% {
-        height: 100%;
-    }
-
-    100% {
-        height: 0%;
-    }
-}
-
 .box {
     position: fixed;
     top:-90px;
@@ -113,25 +39,30 @@ align items in a vertical direction */
     flex-direction: column;
     justify-content: center;
     text-align:center;
-    margin-left:330px
+    margin-left:120px
 }
-
+.wrapper{
+    padding-left:0;
+    margin-left:-259px;
+    z-index: 3;
+}
 .details {
     display: flex;
     align-items: center;
     flex-direction: column;
     justify-content: center;
-    margin-top: 25px;
+    margin-top: -25px;
+    font-family: 'MisoBold', sans-serif;
 }
 
 .track-art {
-    margin: 25px 25px 10px;
-    height: 250px;
-    width: 250px;
-
+    margin: 30px 30px 30px;
+    height: 200px;
+    width: 200px;
     background-size: cover;
     background-position: center;
-    border-radius: 15%;
+    border-radius: 50%;
+    shape-rendering: crispEdges;
 }
 
 /* Changing the font sizes to suitable ones */
@@ -153,7 +84,8 @@ align items in a horizontal direction */
 .buttons {
     display: flex;
     flex-direction: row;
-    align-items: center;
+    align-items: end;
+    margin-left: 8px;
 }
 
 .playpause-track,
@@ -171,6 +103,7 @@ align items in a horizontal direction */
 .prev-track:hover,
 .next-track:hover {
     opacity: 1.0;
+    cursor: pointer;
 }
 
 /* Define the slider width so that it scales properly */
@@ -180,14 +113,16 @@ align items in a horizontal direction */
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-left: -65px;
+    position: absolute;
 }
 
 /* Modify the appearance of the slider */
 .seek_slider, .volume_slider {
     -webkit-appearance: none;
     -moz-appearance: none;
-    appearance: none;
-    height: 5px;
+    appearance: auto;
+    height: 2px;
     background: black;
     opacity: 0.7;
     -webkit-transition: .2s;
@@ -214,16 +149,18 @@ align items in a horizontal direction */
 }
 
 .seek_slider {
-    width: 60%;
+    width: 90%;
 }
 
 .volume_slider {
-    width: 30%;
+    width: 40%;
+    margin-top: 50px;
 }
 
 .current-time,
 .total-duration {
     padding: 10px;
+    cursor: pointer;
 }
 
 i.fa-volume-down,
@@ -239,5 +176,217 @@ i.fa-step-forward,
 i.fa-step-backward {
     cursor: pointer;
 }
+
+/*Start*/
+.sp-container {
+	position: relative;
+    left:0;
+    right:0;
+    z-index: 3000;
+}
+.sp-content {
+	width: 450px;
+    align-content: center;
+	position: absolute;
+	animation:
+            open 0.4s linear forwards,
+            squeeze 0.6s linear 5.5s forwards;
+    margin-left: -7.5px;
+}
+
+.sp-content:after {
+    content: '';
+    width: 4px;
+    background: #000;
+    height: 100%;
+    position: absolute;
+    opacity: 0;
+}
+
+.sp-wrap {
+    width: 1279px;
+    padding: 0 0;
+    height: 100%;
+    text-align: center;
+    font-size: 70px;
+    line-height: 80px;
+    float: left;
+    position: fixed;
+    background: #ffdd00;
+    overflow: hidden;
+}
+
+.sp-container h2 {
+    color: #000;
+    text-shadow: 0 0 1px rgba(0,0,0,0.9);
+}
+.sp-wrap span {
+    display: block;
+    background: #ffdd00;
+    opacity: 0;
+}
+.sp-wrap span.sp-mid {
+    opacity: 1;
+}
+.sp-container .sp-right h2 {
+    color: #fff;
+    text-shadow: 0 0 1px rgba(255,255,255,0.9);
+}
+.sp-wrap span.sp-mid {
+    font-family: 'MisoBold', sans-serif;
+    text-transform: uppercase;
+    font-size: 80px;
+    line-height: 130px;
+    position: relative;
+}
+
+.sp-left span.sp-top {
+    animation:
+            slideLeft 0.5s ease-in 0.6s backwards,
+            fadeOut 1s linear 4s backwards;
+}
+.sp-left span.sp-mid {
+    animation:
+            slideLeft 0.5s ease-in 1s backwards,
+            moveUp 0.6s linear 5s forwards;
+}
+.sp-left span.sp-bottom {
+    animation:
+            slideLeft 0.5s ease-in 1.4s backwards,
+            fadeOut 1s linear 4.2s backwards;
+}
+
+.sp-right span {
+    text-align: left;
+}
+.sp-right span.sp-top {
+    animation:
+            slideRight 0.5s ease-in 2s backwards,
+            fadeOut 1s linear 4.4s backwards;
+}
+.sp-right span.sp-mid {
+    animation: slideRight 0.5s ease-in 2.4s backwards,
+    moveUp 0.6s linear 5s forwards;
+}
+.sp-right span.sp-bottom {
+    animation:
+            slideRight 0.5s ease-in 3.2s backwards,
+            fadeOut 1s linear 4.6s backwards;
+}
+
+.sp-wrap i {
+    position: absolute;
+    background: #ffdd00;
+    width: 400px;
+}
+.sp-wrap i:first-child {
+    color: #000;
+}
+.sp-wrap i:last-child {
+    opacity: 0;
+    animation: fadeOut 1s linear 6s backwards;
+}
+
+.sp-full {
+    position: absolute;
+    font-size: 67px;
+    top: 142px;
+    width: 700px;
+    left: 145px;
+    animation: fadeIn 1s linear 6.6s backwards;
+}
+
+.sp-full a {
+    background: #000;
+    color: #fff;
+    border-radius: 4px;
+    padding: 10px 40px;
+    display: inline-block;
+    font-size: 40px;
+    margin-top: 40px;
+    animation: zoomIn 0.7s ease-in-out 7s backwards;
+}
+.sp-full h2 {
+    width: 800px;
+    padding: 0 0 0 0;
+    float: left;
+    text-align: right;
+}
+.sp-full a:hover {
+    opacity: 0.8;
+}
+
+@keyframes open{
+    0%{
+        transform: scale(1,0);
+    }
+    100%{
+        transform: scale(1,1);
+    }
+}
+
+@keyframes squeeze{
+    0%{
+        height: 400px;
+    }
+    100%{
+        height: 0;
+    }
+}
+
+@keyframes fadeOut{
+    0%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+    }
+}
+@keyframes fadeIn{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+@keyframes slideLeft{
+    0%{
+        transform: translateX(120%);
+    }
+    100%{
+        transform: translateX(0%);
+    }
+}
+@keyframes slideRight{
+    0%{
+        transform: translateX(-120%);
+    }
+    100%{
+        transform: translateX(0%);
+    }
+}
+
+@keyframes moveUp{
+    0%{
+        transform: translateY(0px);
+    }
+    100%{
+        transform: translateY(-10px);
+    }
+}
+
+@keyframes zoomIn{
+    0%{
+        transform: scale(0);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+/*End*/
+
+
 
 
