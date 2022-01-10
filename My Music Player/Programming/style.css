@@ -4,7 +4,7 @@ body {
     transition: background-color .5s;
 }
 
-.box, #box1 {
+.box {
     position: fixed;
     top:-90px;
     left:0;
