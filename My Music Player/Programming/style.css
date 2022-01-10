@@ -4,7 +4,7 @@ body {
     transition: background-color .5s;
 }
 
-.box {
+.box, #box1 {
     position: fixed;
     top:-90px;
     left:0;
@@ -39,11 +39,11 @@ align items in a vertical direction */
     flex-direction: column;
     justify-content: center;
     text-align:center;
-    margin-left:120px
+    margin-left:114px
 }
 .wrapper{
     padding-left:0;
-    margin-left:-259px;
+    margin-left:-103px;
     z-index: 3;
 }
 .details {
@@ -85,13 +85,13 @@ align items in a horizontal direction */
     display: flex;
     flex-direction: row;
     align-items: end;
-    margin-left: 8px;
+    margin-left: 23px;
 }
 
 .playpause-track,
 .prev-track,
 .next-track {
-    padding: 25px;
+    padding: 20px;
     opacity: 0.8;
 
     /* Smoothly transition the opacity */
@@ -179,18 +179,24 @@ i.fa-step-backward {
 
 /*Start*/
 .sp-container {
-	position: relative;
+	position: absolute;
+    top:0;
     left:0;
     right:0;
+    margin:0;
+    padding:0;
+    width:500px;
+
     z-index: 3000;
 }
 .sp-content {
-	width: 450px;
+	width:500px;
     align-content: center;
 	position: absolute;
+    top:0;
 	animation:
             open 0.4s linear forwards,
-            squeeze 0.6s linear 5.5s forwards;
+            squeeze 6s linear 5.5s forwards;
     margin-left: -7.5px;
 }
 
@@ -204,7 +210,7 @@ i.fa-step-backward {
 }
 
 .sp-wrap {
-    width: 1279px;
+    width: 1285px;
     padding: 0 0;
     height: 100%;
     text-align: center;
@@ -293,7 +299,7 @@ i.fa-step-backward {
     top: 142px;
     width: 700px;
     left: 145px;
-    animation: fadeIn 1s linear 6.6s backwards;
+    animation: fadeIn 1s linear 1s backwards;
 }
 
 .sp-full a {
@@ -304,7 +310,7 @@ i.fa-step-backward {
     display: inline-block;
     font-size: 40px;
     margin-top: 40px;
-    animation: zoomIn 0.7s ease-in-out 7s backwards;
+    animation: zoomIn 0.7s ease-in-out 1s backwards;
 }
 .sp-full h2 {
     width: 800px;
@@ -330,7 +336,7 @@ i.fa-step-backward {
         height: 400px;
     }
     100%{
-        height: 0;
+        height: 0px;
     }
 }
 
