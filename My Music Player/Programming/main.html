@@ -1,10 +1,7 @@
 <!--
-Looping gif
 Loader issue
-Aligning stuff
-Adding container containing about the song, and it will change with the song
 Start with the documentation
-Size of box photo should decrease, and change the shape-->
+-->
 
 <!DOCTYPE html>
 <html lang="en">
@@ -57,7 +54,7 @@ Size of box photo should decrease, and change the shape-->
     display: flex;
     justify-content: center;
     align-items: center;
-    top:-75px;
+    top:-95px;
     z-index: 1000;
     width: 334px;
     height: 1043px;
@@ -65,7 +62,7 @@ Size of box photo should decrease, and change the shape-->
     border: none;
     padding: 0;
     margin: 0;">
-        <embed class="box" src="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAE0--U0vvU&#x2F;view?embed"/>
+        <embed id="box1" src="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAE0--U0vvU&#x2F;view?embed&loop?true"/>
     </div>
 </div>
 
@@ -146,6 +143,12 @@ Size of box photo should decrease, and change the shape-->
 </script>
 <!-- Load the main script for the player -->
 <script src="main.js">
+
+</script>
+<script>
+    $(".next-track").click(function(){
+		$(".box2").attr("src", "https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAE0w3fgShI&#x2F;view?embed");
+    })
 </script>
 </body>
 </html>
