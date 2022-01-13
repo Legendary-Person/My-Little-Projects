@@ -18,9 +18,7 @@
   <img src="https://img.shields.io/badge/JavaScript-FFFF33.svg?logo=JavaScript&style=for-the-badge" />
 </p>
 
-<a href="https://github.com/Legendary-Person/My-Little-Projects/tree/main/My%20Music%20Player">
-> ➥ Music Player (Completed)
-</a><br/>
+> ➥ Music Player (Completed) <br/>
 > ➥ Dark and Light theme (to do) <br/>
 > ➥ Quote Generator (to do) <br/>
 > ➥ Todo App (to do) <br/>
