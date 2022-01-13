@@ -1,8 +1,10 @@
 <!--The title for my project.-->
 
 ----
-<img src="https://github.com/Legendary-Person/My-Little-Projects/blob/main/gifs/Black%20Balloon%20Player.gif"/>
-
+<p align=center">
+    <img src="https://github.com/Legendary-Person/My-Little-Projects/blob/main/gifs/Black%20Balloon%20Player.gif"/>
+</p>
+                                                                                                                             
 ----
 <p>
   <h1 align="center">
