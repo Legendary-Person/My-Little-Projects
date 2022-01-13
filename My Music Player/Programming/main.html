@@ -1,9 +1,6 @@
 <!--
-Loader issue
 Start with the documentation
-Hyper-V
-Reminder work
-
+Song server error
 -->
 
 <!DOCTYPE html>
@@ -26,10 +23,6 @@ Reminder work
             integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
             crossorigin="anonymous" ></script>
     <script>
-		function play() {
-			const audio = document.getElementById("audio");
-			audio.play();
-		}
 		function volDecrease(){
 			const audio = document.getElementById("audio");
 			audio.volume=audio.volume-1;
@@ -69,27 +62,6 @@ Reminder work
     </div>
 </div>
 
-<!--Start-->
-<div class="sp-container">
-    <div class="sp-content">
-        <div class="sp-wrap sp-left">
-            <h2>
-                <span class="sp-top">What if you wouldn't get</span>
-                <span class="sp-mid">spam</span>
-                <span class="sp-bottom">anymore?</span>
-            </h2>
-        </div>
-        <div class="sp-wrap sp-right">
-            <h2>
-                <span class="sp-top">Wouldn't that be absolutely</span>
-                <span class="sp-mid">great<i>!</i><i>?</i></span>
-                <span class="sp-bottom">Yeah, it would!</span>
-            </h2>
-        </div>
-    </div>
-</div>
-<!--End-->
-
 <div class="player">
 <div class="wrapper">
     <!-- Define the section for displaying details -->
@@ -106,12 +78,10 @@ Reminder work
             <i class="fas fa-backward fa-2x"></i>
         </div>
         <div class="playpause-track" onclick="playpauseTrack()" >
-            <!--<a href="https://www.youtube.com/embed/fibYknUCIU4">-->
-            <i onclick="play()" class="fas fa-play-circle fa-pause-circle fa-2x">
+            <i class="fas fa-play-circle fa-pause-circle fa-2x">
             </i>
         </div>
         <div class="next-track" onclick="nextTrack()">
-            <audio id="audio" src="https://interactive-examples.mdn.mozilla.net/media/cc0-audio/t-rex-roar.mp3"></audio>
             <i class="fas fa-forward fa-2x"></i>
         </div>
     </div>
