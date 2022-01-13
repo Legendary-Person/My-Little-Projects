@@ -18,7 +18,7 @@
   <img src="https://img.shields.io/badge/JavaScript-FFFF33.svg?logo=JavaScript&style=for-the-badge" />
 </p>
 
-> ➥ Music Player (90% done) <br/>
+> ➥ Music Player (100% done) <br/>
 > ➥ Dark and Light theme (to do) <br/>
 > ➥ Quote Generator (to do) <br/>
 > ➥ Todo App (to do) <br/>
