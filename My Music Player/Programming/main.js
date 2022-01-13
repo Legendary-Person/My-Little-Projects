@@ -27,26 +27,81 @@ let track_list = [
 		name: "No Name",
 		artist: "NF",
 		image: "https://i.ytimg.com/vi/CJzaYLc4pPY/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCLdswmnnVue-tztNXikHzUDIm4oQ",
-		path: "No_Name.mp3"
+		path: "NF - CLOUDS (THE MIXTAPE)\\No Name NF.mp3"
 	},
 	{
 		name: "Clouds",
 		artist: "NF",
 		image: "https://th.bing.com/th/id/R.0e2dd238c7b28699d5504e4c9c32ec6d?rik=weYPh%2fab7MJhsA&riu=http%3a%2f%2fhiphop24x7.com%2fwp-content%2fuploads%2f2018%2f01%2fNew-Video-NF-NO-NAME.jpg&ehk=SpdKFgflbdVZUb%2fmft44W2C9RrtPaoKWlpSg0bXKW%2b4%3d&risl=&pid=ImgRaw&r=0",
-		path: "Clouds.mp3"
+		path: "NF - CLOUDS (THE MIXTAPE)\\11 CLOUDS (Edit).mp3"
 	},
 	{
 		name: "Mansion",
 		artist: "NF",
 		image: "https://i.ytimg.com/vi/N9c-CatjuK8/maxresdefault.jpg",
-		path: "Mansion.mp3",
+		path: "NF - CLOUDS (THE MIXTAPE)\\NF  Mansion Audio ft Fleurie.mp3",
 	},
 	{
 		name: "Lie",
 		artist: "NF",
 		image: "https://i1.sndcdn.com/artworks-000331582743-1gbjmj-t500x500.jpg",
-		path: "Lie.mp3"
+		path: "NF - CLOUDS (THE MIXTAPE)\\NF  Lie Audio.mp3"
+	},
+	{
+		name: "That's A Joke",
+		artist: "NF",
+		image: "https://t2.genius.com/unsafe/406x406/https%3A%2F%2Fimages.genius.com%2Fdb2726320bd445e480d1b5032dc67f6a.1000x1000x1.jpg",
+		path: "NF - CLOUDS (THE MIXTAPE)\\02 THAT'S A JOKE.mp3"
+	},
+	{
+		name: "Just Like You",
+		artist: "NF",
+		image: "https://i.ytimg.com/vi/Yh-qbCsFrFI/maxresdefault.jpg",
+		path: "NF - CLOUDS (THE MIXTAPE)\\03 JUST LIKE YOU.mp3"
+	},
+	{
+		name: "Story",
+		artist: "NF",
+		image: "https://i.ytimg.com/vi/iI_E-pi6_1w/maxresdefault.jpg",
+		path: "NF - CLOUDS (THE MIXTAPE)\\04 STORY.mp3"
+	},
+	{
+		name: "Prideful",
+		artist: "NF",
+		image: "https://i.ytimg.com/vi/NkwtXtCKSQw/maxresdefault.jpg",
+		path: "NF - CLOUDS (THE MIXTAPE)\\05 PRIDEFUL.mp3"
+	},
+	{
+		name: "Lost",
+		artist: "NF",
+		image: "https://i.ytimg.com/vi/MK3-Xzzog6k/maxresdefault.jpg",
+		path: "NF - CLOUDS (THE MIXTAPE)\\06 LOST (feat_ Hopsin).mp3"
+	},
+	{
+		name: "Layers",
+		artist: "NF",
+		image: "https://i.ytimg.com/vi/bflKrH4W_iw/maxresdefault.jpg",
+		path: "NF - CLOUDS (THE MIXTAPE)\\07 LAYERS.mp3"
+	},
+	{
+		name: "Drifting",
+		artist: "NF",
+		image: "https://i.ytimg.com/vi/OSuPJF_1IB8/maxresdefault.jpg",
+		path: "NF - CLOUDS (THE MIXTAPE)\\08 DRIFTING.mp3"
+	},
+	{
+		name: "Trust",
+		artist: "NF",
+		image: "https://e6q6j4m4.stackpathcdn.com/wp-content/uploads/2021/03/NF-Trust-1536x864.jpg",
+		path: "NF - CLOUDS (THE MIXTAPE)\\09 TRUST (feat_ Tech N9ne).mp3"
+	},
+	{
+		name: "PAID MY DUES",
+		artist: "NF",
+		image: "https://jesusful.com/wp-content/uploads/2019/12/NF-Paid-My-Dues-Video-and-Lyrics.jpg",
+		path: "NF - CLOUDS (THE MIXTAPE)\\10 PAID MY DUES.mp3"
 	}
+
 ];
 
 function loadTrack(track_index) {
