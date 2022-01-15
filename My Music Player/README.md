@@ -1,4 +1,10 @@
-<!--The title for my project.-->                 
+<div align="center">
+<img width="1000px" height="395px" src="https://github.com/Legendary-Person/Music-Player/blob/main/readme%20resource/Preview%20Video.gif"/>
+</div>
+
+<!--The title for my project.--> 
+
+----
 <p>
   <h1 align="center">
     <b>
@@ -14,11 +20,6 @@
             🔰</a> Preview
     </b>
 </h2>
-</br>
-<div align="center">
-<img width="800px" height="400px" src="https://github.com/Legendary-Person/Music-Player/blob/main/readme%20resource/Preview%20Video.gif"/>
-</div>
-</br>
 
 Click on the ```{ 🔰 }``` in order to try out the music player.
 
@@ -30,7 +31,7 @@ Click on the ```{ 🔰 }``` in order to try out the music player.
      </b>
 </h2>
 
-Click on the ```{ 🔰 }``` in order to get redirected towards the main repository, you can also read this README.md as I will be explaining everything regarding my project.
+Click on the ```{ 🔰 }``` in order to get redirected towards the main repository, you can also read this ```README.md``` as I will be explaining everything regarding my project.
 
 ----
 <h2 align="left">
