@@ -18,7 +18,7 @@
   <img src="https://img.shields.io/badge/JavaScript-FFFF33.svg?logo=JavaScript&style=for-the-badge" />
 </p>
 
-> ➥ Music Player (Completed) <br/>
+> ➥ [Music Player (Completed) ](https://github.com/Legendary-Person/Music-Player)<br/>
 > ➥ Dark and Light theme (to do) <br/>
 > ➥ Quote Generator (to do) <br/>
 > ➥ Todo App (to do) <br/>
@@ -28,4 +28,4 @@
   <img src="https://img.shields.io/badge/Kotlin-38ffbd.svg?logo=kotlin&style=for-the-badge" />
 </p>
 
-> ➥ Connect Four (to do) <br/>
+> ➥ Connect Four (in process) <br/>
