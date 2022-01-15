@@ -35,12 +35,12 @@ My GitHub profile: <a href="https://github.com/Legendary-Person/Legendary-Person
 ----
 <h2 align="left">
     <b>
-        <a href="https://legendary-person.github.io/Music-Player/music-player.in/HalcyonDaysTemplate/">
+        <a href="https://legendary-person.github.io/Music-Player/music-player.in/WelcomePage/">
             ⏯️</a> Preview
     </b>
 </h2>
 
-```Click on the``` ```{```<a href="https://legendary-person.github.io/Music-Player/music-player.in/HalcyonDaysTemplate/">```⏯️```</a>```}``` ```in order to try out the music player.```
+```Click on the``` ```{```<a href="https://legendary-person.github.io/Music-Player/music-player.in/WelcomePage/">```⏯️```</a>```}``` ```in order to try out the music player.```
 
 ----
 <h2 align="left">
