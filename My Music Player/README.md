@@ -84,9 +84,9 @@ My GitHub profile: <a href="https://github.com/Legendary-Person/Legendary-Person
     </b> 
 </h2>
 
-➥ The Music Player isn't API based, therefore you will need to either manually add the songs (a folder) in your project directory or use .mp3 links.</br></br>
-➥ You will need to host your project on a server, like Wamp Server because, for security reasons, your browser wouldn't access your local files.</br></br>
-➥ The webpage isn't responsive, meaning that it will not automatically resize itself according to the device you are using, in conclusion, looking at the final product on laptop/desktop will be different from looking at in on mobile phone.
+- The Music Player isn't API based, therefore you will need to either manually add the songs (a folder) in your project directory or use .mp3 links.</br></br>
+- You will need to host your project on a server, like Wamp Server because, for security reasons, your browser wouldn't access your local files.</br></br>
+- The webpage isn't responsive, meaning that it will not automatically resize itself according to the device you are using, in conclusion, looking at the final product on laptop/desktop will be different from looking at in on mobile phone.
 
 ----
 <h2 align="left">
