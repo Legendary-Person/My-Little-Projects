@@ -30,7 +30,7 @@ I have provided the code for my project, and have also listed the ```Tech Stack`
 
 My GitHub profile: <a href="https://github.com/Legendary-Person/Legendary-Person">```https://github.com/Legendary-Person/Legendary-Person```</a>
 
-```Click on the``` ```{```<a href="https://github.com/Legendary-Person/Music-Player">```🔰```</a>```}``` ```in order to get redirected towards the main repository, you can also read this``` ```README.md``` ```as I will be explaining everything regarding my project.```
+```Click on the``` ```{```<a href="https://github.com/Legendary-Person/Music-Player">```🔰```</a>```}``` ```in order to get redirected towards the main repository where I have posted all the files, you can also read this``` ```README.md``` ```for an idea of the project.```
 
 ----
 <h2 align="left">
