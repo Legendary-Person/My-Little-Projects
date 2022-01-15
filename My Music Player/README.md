@@ -16,29 +16,37 @@
 
 ----
 <h2 align="left">
-    <b>
-        <a href="https://legendary-person.github.io/Music-Player/music-player.in/HalcyonDaysTemplate/">
-            🔰</a> Preview
-    </b>
-</h2>
-
-> Click on the ```{```<a href="https://legendary-person.github.io/Music-Player/music-player.in/HalcyonDaysTemplate/">```🔰```</a>```}``` in order to try out the music player.
-
-----
-<h2 align="left">
      <b>
          <a href="https://github.com/Legendary-Person/Music-Player">
              🔰</a> Overview
      </b>
 </h2>
 
-> Click on the ```{```<a href="https://github.com/Legendary-Person/Music-Player">```🔰```</a>```}``` in order to get redirected towards the main repository, you can also read this ```README.md``` as I will be explaining everything regarding my project.
+Hello! 👋
+
+My name is Itish Srivastava and this is my first small project, a rather simple music player made using ```Frontend-Development-Technologies```. 
+
+I have provided the code for my project, and have also listed the ```Tech Stack``` involved in my project.
+
+My GitHub profile: <a href="https://github.com/Legendary-Person/Legendary-Person">```https://github.com/Legendary-Person/Legendary-Person```</a>
+
+```Click on the``` ```{```<a href="https://github.com/Legendary-Person/Music-Player">```🔰```</a>```}``` ```in order to get redirected towards the main repository, you can also read this``` ```README.md``` ```as I will be explaining everything regarding my project.```
+
+----
+<h2 align="left">
+    <b>
+        <a href="https://legendary-person.github.io/Music-Player/music-player.in/HalcyonDaysTemplate/">
+            ⏯️</a> Preview
+    </b>
+</h2>
+
+```Click on the``` ```{```<a href="https://legendary-person.github.io/Music-Player/music-player.in/HalcyonDaysTemplate/">```⏯️```</a>```}``` ```in order to try out the music player.```
 
 ----
 <h2 align="left">
     <b>
         <a href="https://github.com/Legendary-Person/Music-Player/tree/main/music-player.in">
-            🔰</a> Tech Stack
+            🏹</a> Tech Stack (Frontend+Backend)
     </b>
 </h2>
 
@@ -48,13 +56,13 @@
 - Wamp (For initial LocalHost run)
 - Canva (Embed Live Option)
 
-> Click on the ```{```<a href="https://github.com/Legendary-Person/Music-Player/tree/main/music-player.in">```🔰```</a>```}``` in order to get redirected towards the main repository directory which contains the coding portion for the music player.
+```Click on the``` ```{```<a href="https://github.com/Legendary-Person/Music-Player/tree/main/music-player.in">```🏹```</a>```}``` ```in order to get redirected towards the main repository directory which contains the coding portion for the music player.```
 
 ----
 <h2 align="left">
     <b>
         <a href="https://github.com/Legendary-Person/Music-Player/tree/main/Gallery">
-            🔰</a> Gallery
+            📸</a> Gallery
     </b>
 </h2>
 
@@ -65,7 +73,7 @@
   <img width="300px" height="300px" src="https://github.com/Legendary-Person/Music-Player/blob/main/Gallery/file%20outlook.png"/>
 </p>
 
-> Click on the ```{```<a href="https://github.com/Legendary-Person/Music-Player/tree/main/Gallery">```🔰```</a>```}``` to check out the gallery folder containing the above pictures.
+```Click on the``` ```{```<a href="https://github.com/Legendary-Person/Music-Player/tree/main/Gallery">```📸```</a>```}``` ```to check out the gallery folder containing the above pictures.```
                 
 ----            
 <!--Welcome Monologue-->
@@ -73,15 +81,15 @@
 <h2 align="left">
     <b>
         <a href="">
-            🔰</a> Note
-    </b>
+            📣</a> Note
+    </b> 
 </h2>
 
 ➥ The Music Player isn't API based, therefore you will need to either manually add the songs (a folder) in your project directory or use .mp3 links.</br></br>
 ➥ You will need to host your project on a server, like Wamp Server because, for security reasons, your browser wouldn't access your local files.</br></br>
 ➥ The webpage isn't responsive, meaning that it will not automatically resize itself according to the device you are using, in conclusion, looking at the final product on laptop/desktop will be different from looking at in on mobile phone.
   
-> Click on the ```{```<a href="https://github.com/Legendary-Person/Music-Player/tree/main/Gallery">```🔰```</a>```}``` to check out the gallery folder containing the above pictures.
+```Click on the``` ```{```<a href="https://github.com/Legendary-Person/Music-Player/tree/main/Gallery">```📣```</a>```}``` ```to check out the gallery folder containing the above pictures.```
 <!--The Black Balloon Banner.-->
 
 ----
