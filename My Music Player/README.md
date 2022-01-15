@@ -17,8 +17,7 @@
 
 ----
 <!--Welcome Monologue-->
-                    
-<h2 align="left">Welcome</h2>                  
+                                      
 <details>
       <summary>Please read!</summary>
                     
