@@ -28,4 +28,4 @@
   <img src="https://img.shields.io/badge/Kotlin-38ffbd.svg?logo=kotlin&style=for-the-badge" />
 </p>
 
-> ➥ Chat App (to do) <br/>
+> ➥ Connect Four (to do) <br/>
