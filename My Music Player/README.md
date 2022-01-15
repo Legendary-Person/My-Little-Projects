@@ -80,18 +80,24 @@ My GitHub profile: <a href="https://github.com/Legendary-Person/Legendary-Person
      
 <h2 align="left">
     <b>
-        <a href="">
-            📣</a> Note
+            📣 Note
     </b> 
 </h2>
 
 ➥ The Music Player isn't API based, therefore you will need to either manually add the songs (a folder) in your project directory or use .mp3 links.</br></br>
 ➥ You will need to host your project on a server, like Wamp Server because, for security reasons, your browser wouldn't access your local files.</br></br>
 ➥ The webpage isn't responsive, meaning that it will not automatically resize itself according to the device you are using, in conclusion, looking at the final product on laptop/desktop will be different from looking at in on mobile phone.
-  
-```Click on the``` ```{```<a href="https://github.com/Legendary-Person/Music-Player/tree/main/Gallery">```📣```</a>```}``` ```to check out the gallery folder containing the above pictures.```
-<!--The Black Balloon Banner.-->
 
+----
+<h2 align="left">
+  <b>
+    ©️ Copyright Disclaimer
+  </b>
+</h2>
+
+- Under section 107 of the Copyright Act 1976, allowance is made for "fair use" for purposes such as criticism, comment, teaching, education, scholarship and research. Fair use is a use permitted by the copyright statute that might otherwise be infringing. Non-profit, educational or personal use tips the balance in favour of fair use.   
+
+----
 ----
 <div align="center">
     <img src="https://github.com/Legendary-Person/My-Little-Projects/blob/main/gifs/Black%20Balloon%20Player.gif"/>
