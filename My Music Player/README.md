@@ -1,3 +1,4 @@
+----
 <div align="center">
 <img width="1000px" height="395px" src="https://github.com/Legendary-Person/Music-Player/blob/main/readme%20resource/Preview%20Video.gif"/>
 </div>
@@ -21,7 +22,7 @@
     </b>
 </h2>
 
-Click on the ```{ 🔰 }``` in order to try out the music player.
+Click on the ```{```<a href="https://legendary-person.github.io/Music-Player/music-player.in/HalcyonDaysTemplate/">```🔰```</a>```}``` in order to try out the music player.
 
 ----
 <h2 align="left">
@@ -31,7 +32,7 @@ Click on the ```{ 🔰 }``` in order to try out the music player.
      </b>
 </h2>
 
-Click on the ```{ 🔰 }``` in order to get redirected towards the main repository, you can also read this ```README.md``` as I will be explaining everything regarding my project.
+Click on the ```{```<a href="https://github.com/Legendary-Person/Music-Player">```🔰```</a>```}``` in order to get redirected towards the main repository, you can also read this ```README.md``` as I will be explaining everything regarding my project.
 
 ----
 <h2 align="left">
@@ -47,16 +48,23 @@ Click on the ```{ 🔰 }``` in order to get redirected towards the main reposito
 - Wamp (For initial LocalHost run)
 - Canva (Embed Live Option)
 
-Click on the ```{ 🔰 }``` in order to get redirected towards the main repository directory which contains the coding portion for the music player.
+Click on the ```{```<a href="https://github.com/Legendary-Person/Music-Player/tree/main/music-player.in">```🔰```</a>```}``` in order to get redirected towards the main repository directory which contains the coding portion for the music player.
 
 ----
 <h2 align="left">
     <b>
         <a href="https://github.com/Legendary-Person/Music-Player/tree/main/music-player.in">
-            🔰</a> Preview
+            🔰</a> Gallery
     </b>
 </h2>
-        
+
+<p align="left">
+  <img width="500px" height="200px" src="https://github.com/Legendary-Person/Music-Player/blob/main/Gallery/main%20menu.png"/>
+  <img align="right" width="500px" height="300px" src="https://github.com/Legendary-Person/Music-Player/blob/main/Gallery/menu.png"/>
+  <img width="400px" height="200px" src="https://github.com/Legendary-Person/Music-Player/blob/main/Gallery/menu%20player.png"/>
+</p>
+</br>
+</br>
                 
 ----            
 <!--Welcome Monologue-->
@@ -65,9 +73,9 @@ Click on the ```{ 🔰 }``` in order to get redirected towards the main reposito
       <summary>Please read!</summary>
                     
 ----
-> ➥ The Music Player isn't API based, therefore you will need to either manually add the songs (a folder) in your project directory or use .mp3 links.</br></br>
-> ➥ You will need to host your project on a server, like Wamp Server because, for security reasons, your browser wouldn't access your local files.</br></br>
-> ➥ The webpage isn't responsive, meaning that it will not automatically resize itself according to the device you are using, in conclusion, looking at the final product on laptop/desktop will be different from looking at in on mobile phone.
+➥ The Music Player isn't API based, therefore you will need to either manually add the songs (a folder) in your project directory or use .mp3 links.</br></br>
+➥ You will need to host your project on a server, like Wamp Server because, for security reasons, your browser wouldn't access your local files.</br></br>
+➥ The webpage isn't responsive, meaning that it will not automatically resize itself according to the device you are using, in conclusion, looking at the final product on laptop/desktop will be different from looking at in on mobile phone.
                     
 ----
 </details> 
