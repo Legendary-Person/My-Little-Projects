@@ -1,7 +1,7 @@
 <!--The Black Balloon Banner.-->
 
 ----
-<div align=center">
+<div align="center">
     <img src="https://github.com/Legendary-Person/My-Little-Projects/blob/main/gifs/Black%20Balloon%20Player.gif"/>
 </div>
                                                                                                                              
@@ -16,6 +16,49 @@
 </p>
 
 ----
+<h2 align="left">
+    <b>
+        <a href="https://github.com/Legendary-Person/Music-Player/tree/main/music-player.in">
+            🔰</a> Preview
+    </b>
+</h2>
+
+----
+<h2 align="left">
+     <b>
+         <a href="https://github.com/Legendary-Person/Music-Player">
+             🔰</a> Overview
+     </b>
+</h2>
+
+Click on the ```{ 🔰 }``` in order to get redirected towards the main repository, you can also read this README.md as I will be explaining everything regarding my project.
+
+----
+<h2 align="left">
+    <b>
+        <a href="https://github.com/Legendary-Person/Music-Player/tree/main/music-player.in">
+            🔰</a> Tech Stack
+    </b>
+</h2>
+
+- JavaScript (For Logic & interactivity and some jQuery too)
+- HTML (For Structure)
+- CSS (For Design and animation)
+- Wamp (For initial LocalHost run)
+- Canva (Embed Live Option)
+
+Click on the ```{ 🔰 }``` in order to get redirected towards the main repository directory which contains the coding portion for the music player.
+
+----
+<h2 align="left">
+    <b>
+        <a href="https://github.com/Legendary-Person/Music-Player/tree/main/music-player.in">
+            🔰</a> Preview
+    </b>
+</h2>
+        
+                
+----            
 <!--Welcome Monologue-->
                                       
 <details>
@@ -28,9 +71,3 @@
                     
 ----
 </details> 
-<h2 align="left">
-     <b>
-     Overview
-     </b>
-</h2>
-Follow the intructions listed below in order to successfully deploy
