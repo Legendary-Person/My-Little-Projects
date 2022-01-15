@@ -1,11 +1,3 @@
-<!--The Black Balloon Banner.-->
-
-----
-<div align="center">
-    <img src="https://github.com/Legendary-Person/My-Little-Projects/blob/main/gifs/Black%20Balloon%20Player.gif"/>
-</div>
-                                                                                                                             
-----
 <!--The title for my project.-->                 
 <p>
   <h1 align="center">
@@ -18,10 +10,17 @@
 ----
 <h2 align="left">
     <b>
-        <a href="https://github.com/Legendary-Person/Music-Player/tree/main/music-player.in">
+        <a href="https://legendary-person.github.io/Music-Player/music-player.in/HalcyonDaysTemplate/">
             🔰</a> Preview
     </b>
 </h2>
+</br>
+<div align="center">
+<img width="800px" height="400px" src="https://github.com/Legendary-Person/Music-Player/blob/main/readme%20resource/Preview%20Video.gif"/>
+</div>
+</br>
+
+Click on the ```{ 🔰 }``` in order to try out the music player.
 
 ----
 <h2 align="left">
@@ -71,3 +70,12 @@ Click on the ```{ 🔰 }``` in order to get redirected towards the main reposito
                     
 ----
 </details> 
+
+<!--The Black Balloon Banner.-->
+
+----
+<div align="center">
+    <img src="https://github.com/Legendary-Person/My-Little-Projects/blob/main/gifs/Black%20Balloon%20Player.gif"/>
+</div>
+                                                                                                                             
+----
