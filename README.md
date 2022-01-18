@@ -23,6 +23,7 @@
 > ➥ Quote Generator (to do) <br/>
 > ➥ Todo App (to do) <br/>
 > ➥ Portfolio (to do) <br/>
+> ➥ KIIT Connect Website (in process) <br/>
 
 <p align="left">
   <img src="https://img.shields.io/badge/Kotlin-38ffbd.svg?logo=kotlin&style=for-the-badge" />
